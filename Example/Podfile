@@ -1,5 +1,6 @@
 use_frameworks!
 
 target 'IGListKitExamples' do
+  pod 'KTCenterFlowLayout'
   pod 'IGListKit', :path => '../IGListKit.podspec'
 end

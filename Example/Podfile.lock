@@ -1,16 +1,19 @@
 PODS:
-  - IGListKit (1.0)
+  - IGListKit (1.0.0)
+  - KTCenterFlowLayout (1.3.1)
 
 DEPENDENCIES:
   - IGListKit (from `../IGListKit.podspec`)
+  - KTCenterFlowLayout
 
 EXTERNAL SOURCES:
   IGListKit:
-    :path: ../IGListKit.podspec
+    :path: "../IGListKit.podspec"
 
 SPEC CHECKSUMS:
-  IGListKit: 67493f1f775fea949596c7fc8317c7bd77ba8539
+  IGListKit: 3242c475fa77e2abf2d4de319703088008fbe9b9
+  KTCenterFlowLayout: 6e02b50ab2bd865025ae82fe266ed13b6d9eaf97
 
-PODFILE CHECKSUM: 4bdfb42d1e7b2b121bf8c83bc300d7d77aa0fc3a
+PODFILE CHECKSUM: f791d1b912e0234b763db08cd70809cd32aae219
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
