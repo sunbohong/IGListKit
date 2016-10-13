@@ -14,13 +14,14 @@
 
 import UIKit
 import IGListKit
+import KTCenterFlowLayout
 
 class NestedAdapterViewController: UIViewController, IGListAdapterDataSource {
 
     lazy var adapter: IGListAdapter = {
         return IGListAdapter(updater: IGListAdapterUpdater(), viewController: self, workingRangeSize: 0)
     }()
-    let collectionView = IGListCollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+    let collectionView = IGListCollectionView(frame: CGRect.zero, collectionViewLayout: KTCenterFlowLayout())
 
     let data = [
         "Ridiculus Elit Tellus Purus Aenean",

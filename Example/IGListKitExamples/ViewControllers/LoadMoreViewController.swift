@@ -14,13 +14,14 @@
 
 import UIKit
 import IGListKit
+import KTCenterFlowLayout
 
 class LoadMoreViewController: UIViewController, IGListAdapterDataSource, UIScrollViewDelegate {
 
     lazy var adapter: IGListAdapter = {
         return IGListAdapter(updater: IGListAdapterUpdater(), viewController: self, workingRangeSize: 0)
     }()
-    let collectionView = IGListCollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+    let collectionView = IGListCollectionView(frame: CGRect.zero, collectionViewLayout: KTCenterFlowLayout())
 
     lazy var words = "Maecenas faucibus mollis interdum Praesent commodo cursus magna, vel scelerisque nisl consectetur et".components(separatedBy: " ")
     var loading = false

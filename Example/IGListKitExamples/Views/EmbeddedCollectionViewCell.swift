@@ -14,11 +14,12 @@
 
 import UIKit
 import IGListKit
+import KTCenterFlowLayout
 
 class EmbeddedCollectionViewCell: UICollectionViewCell {
 
     lazy var collectionView: IGListCollectionView = {
-        let layout = UICollectionViewFlowLayout()
+        let layout = KTCenterFlowLayout()
         layout.scrollDirection = .horizontal
         let view = IGListCollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         view.backgroundColor = UIColor.clear
