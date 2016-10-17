@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2478DC1DB4B3C60048BBC0 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2478DB1DB4B3C60048BBC0 /* CollectionCell.swift */; };
 		26271C8E1DAE9D3F0073E116 /* SingleSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26271C8D1DAE9D3F0073E116 /* SingleSectionViewController.swift */; };
 		26271C921DAE9EFC0073E116 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26271C911DAE9EFC0073E116 /* NibCell.xib */; };
 		26271C941DAE9F050073E116 /* NibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26271C931DAE9F050073E116 /* NibCell.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2478DB1DB4B3C60048BBC0 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		26271C8D1DAE9D3F0073E116 /* SingleSectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSectionViewController.swift; sourceTree = "<group>"; };
 		26271C911DAE9EFC0073E116 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
 		26271C931DAE9F050073E116 /* NibCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibCell.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				2961B3A81D68B0B5001C9451 /* SpinnerCell.swift */,
 				26271C931DAE9F050073E116 /* NibCell.swift */,
 				26271C911DAE9EFC0073E116 /* NibCell.xib */,
+				0B2478DB1DB4B3C60048BBC0 /* CollectionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			files = (
 				299068281D75BFEC00A62888 /* MixedDataViewController.swift in Sources */,
 				299B54001D6BD6630074A202 /* SearchViewController.swift in Sources */,
+				0B2478DC1DB4B3C60048BBC0 /* CollectionCell.swift in Sources */,
 				2961B3AE1D68B0B5001C9451 /* SpinnerCell.swift in Sources */,
 				2961B3B01D68B28E001C9451 /* SearchCell.swift in Sources */,
 				2942FF8C1D9F39E00015D24B /* DemoSectionController.swift in Sources */,

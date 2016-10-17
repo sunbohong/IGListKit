@@ -1,16 +1,19 @@
 PODS:
   - IGListKit (1.0.0)
+  - SnapKit (3.0.2)
 
 DEPENDENCIES:
   - IGListKit (from `../IGListKit.podspec`)
+  - SnapKit (~> 3.0.2)
 
 EXTERNAL SOURCES:
   IGListKit:
-    :path: ../IGListKit.podspec
+    :path: "../IGListKit.podspec"
 
 SPEC CHECKSUMS:
   IGListKit: 3242c475fa77e2abf2d4de319703088008fbe9b9
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
 
-PODFILE CHECKSUM: 4bdfb42d1e7b2b121bf8c83bc300d7d77aa0fc3a
+PODFILE CHECKSUM: b2e5d91ed1ead0388046bdca457b1fde5504b7d5
 
-COCOAPODS: 1.1.0.rc.3
+COCOAPODS: 1.1.0.rc.2

@@ -25,25 +25,29 @@ class ExpandableSectionController: IGListSectionController, IGListSectionType {
     }
 
     func sizeForItem(at index: Int) -> CGSize {
-        let width = collectionContext!.containerSize.width
-        let height = expanded ? LabelCell.textHeight(object ?? "", width: width) : LabelCell.singleLineHeight
-        return CGSize(width: width, height: height)
+        return CGSize(width: 101, height: 101)
     }
 
     func cellForItem(at index: Int) -> UICollectionViewCell {
-        let cell = collectionContext!.dequeueReusableCell(of: LabelCell.self, for: self, at: index) as! LabelCell
-        cell.label.numberOfLines = expanded ? 0 : 1
-        cell.label.text = object
+        let cell = collectionContext!.dequeueReusableCell(of: CollectionCell.self, for: self, at: index) as! CollectionCell
+        cell.titleLabel.text = object
+        cell.titleLabel.numberOfLines = expanded ? 0 : 1;
+        if cell.snp.label() == nil {
+            cell.snp.setLabel("cell")
+            cell.titleLabel.snp.makeConstraints({ (make) in
+                make.edges.equalTo(UIEdgeInsetsMake(5, 5, 5, 5));
+            })
+        }
         return cell
     }
 
     func didUpdate(to object: Any) {
         self.object = object as? String
     }
-
+    
     func didSelectItem(at index: Int) {
         expanded = !expanded
         collectionContext?.reload(self)
     }
-
+    
 }

@@ -13,6 +13,7 @@
  */
 
 import IGListKit
+import SnapKit
 
 protocol SearchSectionControllerDelegate: class {
     func searchSectionController(_ sectionController: SearchSectionController, didChangeText text: String)
@@ -37,6 +38,8 @@ class SearchSectionController: IGListSectionController, IGListSectionType, IGLis
 
     func cellForItem(at index: Int) -> UICollectionViewCell {
         let cell = collectionContext!.dequeueReusableCell(of: SearchCell.self, for: self, at: index) as! SearchCell
+   
+
         cell.searchBar.delegate = self
         return cell
     }

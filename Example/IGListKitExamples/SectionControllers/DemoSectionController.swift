@@ -21,42 +21,64 @@ class DemoItem: NSObject {
     let controllerClass: UIViewController.Type
 
     init(
-        name: String,
-        controllerClass: UIViewController.Type
+        name :                             String,
+        controllerClass : UIViewController.Type
         ) {
         self.name = name
         self.controllerClass = controllerClass
     }
-
 }
 
 class DemoSectionController: IGListSectionController, IGListSectionType {
 
     var object: DemoItem?
 
-    func numberOfItems() -> Int {
+    func numberOfItems()->Int {
         return 1
     }
 
-    func sizeForItem(at index: Int) -> CGSize {
+    func sizeForItem(at index : Int)->CGSize {
         return CGSize(width: collectionContext!.containerSize.width, height: 55)
     }
 
-    func cellForItem(at index: Int) -> UICollectionViewCell {
-        let cell = collectionContext!.dequeueReusableCell(of: LabelCell.self, for: self, at: index) as! LabelCell
-        cell.label.text = object?.name
+    fileprivate static let insets = UIEdgeInsets(top: 8, left: 15, bottom: 8, right: 15)
+    fileprivate static let font = UIFont.systemFont(ofSize: 17)
+
+    func cellForItem(at index : Int)->UICollectionViewCell {
+        let cell = collectionContext!.dequeueReusableCell(of: CollectionCell.self, for : self, at: index) as!CollectionCell
+        cell.titleLabel.text = object?.name
+        if cell.snp.label() == nil {
+            cell.snp.setLabel("cell")
+
+            cell.titleLabel.font = DemoSectionController.font
+
+            cell.separator.isHidden = false
+            cell.separator.backgroundColor = UIColor(red : 200/255.0, green: 199/255.0, blue: 204/255.0, alpha: 1)
+
+            let height:CGFloat = 0.5
+
+
+            cell.titleLabel.snp.makeConstraints { (make)->Void in
+                make.edges.equalTo(DemoSectionController.insets)}
+
+
+            cell.separator.snp.makeConstraints({ (make) in
+                make.left.equalTo(DemoSectionController.insets.left);
+                make.right.equalTo(0)
+                make.height.equalTo(height);
+                make.bottom.equalTo(0)})
+        }
         return cell
     }
 
-    func didUpdate(to object: Any) {
+    func didUpdate(to object : Any) {
         self.object = object as? DemoItem
     }
 
-    func didSelectItem(at index: Int) {
+    func didSelectItem(at index : Int) {
         if let controller = object?.controllerClass.init() {
             controller.title = object?.name
-            viewController?.navigationController?.pushViewController(controller, animated: true)
+            viewController?.navigationController?.pushViewController(controller, animated : true)
         }
     }
-
 }

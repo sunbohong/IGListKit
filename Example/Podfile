@@ -1,5 +1,6 @@
 use_frameworks!
 
 target 'IGListKitExamples' do
+  pod 'SnapKit', '~> 3.0.2'
   pod 'IGListKit', :path => '../IGListKit.podspec'
 end
