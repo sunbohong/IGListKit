@@ -30,10 +30,14 @@ class ExpandableSectionController: IGListSectionController, IGListSectionType {
 
     func cellForItem(at index: Int) -> UICollectionViewCell {
         let cell = collectionContext!.dequeueReusableCell(of: CollectionCell.self, for: self, at: index) as! CollectionCell
+        cell.contentView.backgroundColor = UIColor.red
         cell.titleLabel.text = object
         cell.titleLabel.numberOfLines = expanded ? 0 : 1;
         if cell.snp.label() == nil {
             cell.snp.setLabel("cell")
+            cell.contentView.snp.makeConstraints({ (make) in
+                make.width.lessThanOrEqualTo(collectionContext!.containerSize.width)
+            })
             cell.titleLabel.snp.makeConstraints({ (make) in
                 make.edges.equalTo(UIEdgeInsetsMake(5, 5, 5, 5));
             })

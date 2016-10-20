@@ -34,4 +34,9 @@ class CollectionCell: UICollectionViewCell {
             contentView.frame = bounds
         }
     }
+    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+//        return layoutAttributes;
+        let attributes = super.preferredLayoutAttributesFitting(layoutAttributes);
+        return attributes;
+    }
 }
