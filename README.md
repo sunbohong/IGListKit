@@ -1,3 +1,70 @@
+
+This is a fork of [Instagram/IGListKit]( https://github.com/Instagram/IGListKit) .
+
+这个仓库是 [Instagram/IGListKit]( https://github.com/Instagram/IGListKit) 的一个分支。
+
+[Instagram engineering](https://engineering.instagram.com/) supply a new data-driven UICollectionView framework for building fast and flexible lists.
+
+[Instagram engineering](https://engineering.instagram.com/) 提供了一个数据驱动的 UICollectionView 库，可以快速创建灵活地创建 UICollectionView 视图。
+
+They say IGListKit's main features contain **Better architecture with reusable cells and components**.
+
+他们声称 **更好的架构与可重复使用的单元格和组件** 是 IGListKit 的主要特性。
+
+But,I don't think that.
+
+但是，我们还可以更进一步。
+
+In many cases,we only need some similar cells that have some similar subviews but have different layout.
+
+在很多情况下，我们只是需要一些相似的单元格，这些单元格具有一些相似的子视图，但是，它们具有不同的布局。
+
+Just like UITableViewCellStyle.
+
+就像 UITableViewCellStyle。
+
+IGListKit has a limit for this.
+
+IGListKit 对此有很大的限制。
+
+In the same `IGListCollectionView` view,it only support one `UICollectionViewCell` class to one `IGListSectionController` class,and different `IGListSectionController` can't have the same `UICollectionViewCell` class.
+
+在同一个`IGListCollectionView`视图中，`UICollectionViewCell`类和`IGListSectionController`类必须一一对应，并且不同的`IGListSectionController`不能对应同一个`UICollectionViewCell`类。
+
+For example,https://github.com/Instagram/IGListKit/tree/master/Example create many `UICollectionViewCell`'s subclasss.
+
+例如， https://github.com/Instagram/IGListKit/tree/master/Example 创建了很多`UICollectionViewCell`的子类。
+
+They may be just a bit different in alignment.
+
+它们之间可能仅仅是对齐有些不同。
+
+I want to avoid this situation.
+
+我希望避免这种情况。
+
+So that,I create n2one. 
+
+所以，我创建了 n2one。
+
+In the same `IGListCollectionView` view,you can use the same `UICollectionViewCell` class to correspond to different `IGListSectionController`.
+
+在同一个`IGListCollectionView`视图中，你可以使用相同的`UICollectionViewCell`类对应不同的`IGListSectionController`
+
+## Installation
+
+The preferred installation method for `IGListKit+n2one` is with [CocoaPods](http://cocoapods.org). Simply add the following to your Podfile:
+
+```ruby
+# Latest release of IGListKit
+pod 'IGListKit+n2one'
+```
+
+- - - 
+- - -
+- - -
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Instagram/IGListKit/master/Resources/logo-animation.gif" width=400 />
 </p>
