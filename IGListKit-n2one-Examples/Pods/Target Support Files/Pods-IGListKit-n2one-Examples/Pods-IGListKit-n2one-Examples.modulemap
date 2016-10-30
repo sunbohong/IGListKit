@@ -1,0 +1,6 @@
+framework module Pods_IGListKit_n2one_Examples {
+  umbrella header "Pods-IGListKit-n2one-Examples-umbrella.h"
+
+  export *
+  module * { export * }
+}

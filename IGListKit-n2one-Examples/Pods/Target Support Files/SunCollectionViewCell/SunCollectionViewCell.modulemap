@@ -1,0 +1,6 @@
+framework module SunCollectionViewCell {
+  umbrella header "SunCollectionViewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

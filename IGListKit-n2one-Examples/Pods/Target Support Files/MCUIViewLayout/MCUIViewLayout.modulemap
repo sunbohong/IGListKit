@@ -1,0 +1,6 @@
+framework module MCUIViewLayout {
+  umbrella header "MCUIViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

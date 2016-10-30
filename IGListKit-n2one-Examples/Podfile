@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'IGListKit-n2one-Examples' do
+  pod 'IGListKit', :path => '../IGListKit.podspec'
+
+  pod 'SunCollectionViewCell', '~> 0.1.0'
+  
+  pod 'ChameleonFramework', '~> 2.1.0'
+  pod 'MCUIViewLayout', '~> 0.5.1'
+end
