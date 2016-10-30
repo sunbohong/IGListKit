@@ -48,7 +48,7 @@ IGListCollectionContext
 @property (nonatomic, assign) BOOL isInUpdateBlock;
 @property (nonatomic, strong, nullable) IGListSectionMap *previoussectionMap;
 
-@property (nonatomic, strong) NSMutableSet<Class> *registeredCellClasses;
+@property (nonatomic, strong) NSMutableSet<Class> *registeredCellIdentifier;
 @property (nonatomic, strong) NSMutableSet<NSString *> *registeredSupplementaryViewIdentifiers;
 
 - (NSArray *)indexPathsFromSectionController:(IGListSectionController <IGListSectionType> *)sectionController

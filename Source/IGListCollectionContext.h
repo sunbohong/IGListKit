@@ -88,7 +88,12 @@ NS_ASSUME_NONNULL_BEGIN
  @note This method uses a string representation of the cell class as the identifier.
  */
 - (__kindof UICollectionViewCell *)dequeueReusableCellOfClass:(Class)cellClass
-                                         forSectionController:(IGListSectionController<IGListSectionType> *)sectionController
+                                         forSectionController:(IGListSectionController<IGListSectionType> *) sectionController
+                                                      atIndex:(NSInteger)index;
+
+- (__kindof UICollectionViewCell *)dequeueReusableCellOfClass:(Class)cellClass
+                                         forSectionController:(IGListSectionController<IGListSectionType> *) sectionController
+                                                   identifier:(NSString *)identifier
                                                       atIndex:(NSInteger)index;
 
 /**
@@ -106,6 +111,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (__kindof UICollectionReusableView *)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind
                                                          forSectionController:(IGListSectionController<IGListSectionType> *)sectionController
                                                                         class:(Class)viewClass
+                                                                      atIndex:(NSInteger)index;
+
+- (__kindof UICollectionReusableView *)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind
+                                                         forSectionController:(IGListSectionController<IGListSectionType> *)sectionController
+                                                                        class:(Class)viewClass
+                                                                   identifier:(NSString *)identifier
                                                                       atIndex:(NSInteger)index;
 
 /**
