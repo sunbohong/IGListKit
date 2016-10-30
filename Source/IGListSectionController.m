@@ -9,8 +9,8 @@
 
 #import "IGListSectionControllerInternal.h"
 
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListAssert.h>
+#import <IGListKit_n2one/IGListMacros.h>
+#import <IGListKit_n2one/IGListAssert.h>
 
 static NSString * const kIGListSectionControllerThreadKey = @"kIGListSectionControllerThreadKey";
 

@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 /**
  This class is never actually used by the IGListKit infrastructure. It exists only to give compiler errors when editing

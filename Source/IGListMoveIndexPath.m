@@ -10,7 +10,7 @@
 #import "IGListMoveIndexPath.h"
 #import "IGListMoveIndexPathInternal.h"
 
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 @implementation IGListMoveIndexPath
 

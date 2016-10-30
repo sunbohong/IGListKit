@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import <IGListKit/IGListKit.h>
+#import <IGListKit_n2one/IGListKit.h>
 
 #import "IGDemoSectionController.h"
 #import "IGMixedDataViewController.h"

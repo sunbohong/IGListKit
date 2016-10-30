@@ -15,8 +15,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListExperiments.h>
+#import <IGListKit_n2one/IGListMacros.h>
+#import <IGListKit_n2one/IGListExperiments.h>
 
 #import "IGListIndexPathResultInternal.h"
 #import "IGListIndexSetResultInternal.h"

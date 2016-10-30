@@ -9,9 +9,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListSectionController.h>
-#import <IGListKit/IGListSectionType.h>
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListSectionController.h>
+#import <IGListKit_n2one/IGListSectionType.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

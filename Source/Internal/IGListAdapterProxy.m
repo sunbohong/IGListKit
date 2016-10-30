@@ -9,7 +9,7 @@
 
 #import "IGListAdapterProxy.h"
 
-#import <IGListKit/IGListAssert.h>
+#import <IGListKit_n2one/IGListAssert.h>
 
 /**
  Define messages that you want the IGListAdapter object to intercept. Pattern copied from

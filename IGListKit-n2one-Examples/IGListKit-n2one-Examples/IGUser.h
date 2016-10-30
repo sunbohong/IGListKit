@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListKit.h>
+#import <IGListKit_n2one/IGListKit.h>
 
 @interface IGUser : NSObject  < IGListDiffable>
 

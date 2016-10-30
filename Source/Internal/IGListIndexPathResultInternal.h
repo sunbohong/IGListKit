@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListIndexPathResult.h>
+#import <IGListKit_n2one/IGListIndexPathResult.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

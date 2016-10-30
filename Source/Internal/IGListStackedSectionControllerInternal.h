@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <IGListKit/IGListDisplayDelegate.h>
+#import <IGListKit_n2one/IGListDisplayDelegate.h>
 
 #import "IGListStackedSectionController.h"
 

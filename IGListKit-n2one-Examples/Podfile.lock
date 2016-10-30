@@ -2,26 +2,26 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
-  - IGListKit (1.0.0)
+  - IGListKit+n2one (1.0.0)
   - MCUIViewLayout (0.5.1)
   - SunCollectionViewCell (0.1.0)
 
 DEPENDENCIES:
   - ChameleonFramework (~> 2.1.0)
-  - IGListKit (from `../IGListKit.podspec`)
+  - IGListKit+n2one (from `../IGListKit+n2one.podspec`)
   - MCUIViewLayout (~> 0.5.1)
   - SunCollectionViewCell (~> 0.1.0)
 
 EXTERNAL SOURCES:
-  IGListKit:
-    :path: "../IGListKit.podspec"
+  IGListKit+n2one:
+    :path: "../IGListKit+n2one.podspec"
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  IGListKit: 3242c475fa77e2abf2d4de319703088008fbe9b9
+  IGListKit+n2one: ec209da30be074f1db54c91bbf2ce4497f75f9df
   MCUIViewLayout: 0701f55f82982eac83fa0d837a2c248fa2ce10d5
   SunCollectionViewCell: fe76a980e92bcdd59a8df01afa3372e9de95e7ea
 
-PODFILE CHECKSUM: 31edea8e10c81860adce1f8cece27e905a11460d
+PODFILE CHECKSUM: 074bf67751a2075d350154b54722fc951216940c
 
 COCOAPODS: 1.1.1

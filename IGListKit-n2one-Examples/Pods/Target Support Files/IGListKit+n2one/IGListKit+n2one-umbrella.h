@@ -32,6 +32,6 @@
 #import "IGListWorkingRangeDelegate.h"
 #import "NSObject+IGListDiffable.h"
 
-FOUNDATION_EXPORT double IGListKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char IGListKitVersionString[];
+FOUNDATION_EXPORT double IGListKit_n2oneVersionNumber;
+FOUNDATION_EXPORT const unsigned char IGListKit_n2oneVersionString[];
 

@@ -8,7 +8,7 @@
 
 #import "IGMixedDataViewController.h"
 
-#import <IGListKit/IGListKit.h>
+#import <IGListKit_n2one/IGListKit.h>
 #import <ChameleonFramework/Chameleon.h>
 
 #import "IGExpandableSectionController.h"

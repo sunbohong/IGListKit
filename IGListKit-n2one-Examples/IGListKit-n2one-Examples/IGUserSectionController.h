@@ -6,7 +6,7 @@
 //  Copyright © 2016年 sunbohong. All rights reserved.
 //
 
-#import <IGListKit/IGListKit.h>
+#import <IGListKit_n2one/IGListKit.h>
 
 @interface IGUserSectionController : IGListSectionController<IGListSectionType>
 

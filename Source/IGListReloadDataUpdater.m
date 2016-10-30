@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <IGListKit/IGListReloadDataUpdater.h>
+#import <IGListKit_n2one/IGListReloadDataUpdater.h>
 
 @implementation IGListReloadDataUpdater
 

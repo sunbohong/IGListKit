@@ -9,11 +9,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListCollectionContext.h>
-#import <IGListKit/IGListDisplayDelegate.h>
-#import <IGListKit/IGListScrollDelegate.h>
-#import <IGListKit/IGListSupplementaryViewSource.h>
-#import <IGListKit/IGListWorkingRangeDelegate.h>
+#import <IGListKit_n2one/IGListCollectionContext.h>
+#import <IGListKit_n2one/IGListDisplayDelegate.h>
+#import <IGListKit_n2one/IGListScrollDelegate.h>
+#import <IGListKit_n2one/IGListSupplementaryViewSource.h>
+#import <IGListKit_n2one/IGListWorkingRangeDelegate.h>
 
 /**
  The base class for section controllers used in the list infra. This class is meant to be subclassed.

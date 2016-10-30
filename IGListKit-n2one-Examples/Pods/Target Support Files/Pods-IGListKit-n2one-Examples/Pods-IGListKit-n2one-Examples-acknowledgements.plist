@@ -79,7 +79,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			<key>License</key>
 			<string>BSD</string>
 			<key>Title</key>
-			<string>IGListKit</string>
+			<string>IGListKit+n2one</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

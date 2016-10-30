@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListKit.h>
+#import <IGListKit_n2one/IGListKit.h>
 
 @interface IGDemoItem : NSObject
 

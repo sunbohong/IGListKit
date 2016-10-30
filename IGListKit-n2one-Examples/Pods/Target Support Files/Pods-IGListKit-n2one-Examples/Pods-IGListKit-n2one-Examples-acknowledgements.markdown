@@ -26,7 +26,7 @@ This application makes use of the following third party libraries:
 > SOFTWARE. 
 
 
-## IGListKit
+## IGListKit+n2one
 
 BSD License
 

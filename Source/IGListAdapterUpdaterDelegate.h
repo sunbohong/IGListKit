@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListBatchUpdateData.h>
+#import <IGListKit_n2one/IGListBatchUpdateData.h>
 
 @class IGListAdapterUpdater;
 

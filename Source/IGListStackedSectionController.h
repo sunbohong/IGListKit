@@ -7,9 +7,9 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <IGListKit/IGListSectionController.h>
-#import <IGListKit/IGListSectionType.h>
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListSectionController.h>
+#import <IGListKit_n2one/IGListSectionType.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 /**
  This is a clustered section controller, composed of many child section controllers. It constructs and routes item-level

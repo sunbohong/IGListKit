@@ -9,8 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListUpdatingDelegate.h>
+#import <IGListKit_n2one/IGListMacros.h>
+#import <IGListKit_n2one/IGListUpdatingDelegate.h>
 
 IGLK_SUBCLASSING_RESTRICTED
 @interface IGListReloadDataUpdater : NSObject <IGListUpdatingDelegate>

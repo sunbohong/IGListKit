@@ -11,7 +11,7 @@
 
 #import <unordered_map>
 
-#import <IGListKit/IGListAssert.h>
+#import <IGListKit_n2one/IGListAssert.h>
 
 // Filters indexPaths removing all paths that have a section in sections.
 static NSMutableSet *indexPathsMinusSections(NSSet<NSIndexPath *> *indexPaths, NSIndexSet *sections) {

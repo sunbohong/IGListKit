@@ -10,9 +10,9 @@
 #import "IGListAdapterUpdater.h"
 #import "IGListAdapterUpdaterInternal.h"
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListBatchUpdateData.h>
-#import <IGListKit/IGListDiff.h>
+#import <IGListKit_n2one/IGListAssert.h>
+#import <IGListKit_n2one/IGListBatchUpdateData.h>
+#import <IGListKit_n2one/IGListDiff.h>
 
 #import "UICollectionView+IGListBatchUpdateData.h"
 

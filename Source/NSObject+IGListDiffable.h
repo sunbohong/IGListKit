@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListDiffable.h>
+#import <IGListKit_n2one/IGListDiffable.h>
 
 /**
  This category adds diffing comparisons similar to adding the object into an NSSet, where the object's isEqual: method

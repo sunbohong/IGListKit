@@ -11,8 +11,8 @@
 
 #import <objc/runtime.h>
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListSupplementaryViewSource.h>
+#import <IGListKit_n2one/IGListAssert.h>
+#import <IGListKit_n2one/IGListSupplementaryViewSource.h>
 
 #import "IGListSectionControllerInternal.h"
 

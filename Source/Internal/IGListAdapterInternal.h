@@ -7,8 +7,8 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <IGListKit/IGListAdapter.h>
-#import <IGListKit/IGListCollectionContext.h>
+#import <IGListKit_n2one/IGListAdapter.h>
+#import <IGListKit_n2one/IGListCollectionContext.h>
 
 #import "IGListAdapterProxy.h"
 #import "IGListDisplayHandler.h"
@@ -48,7 +48,7 @@ IGListCollectionContext
 @property (nonatomic, assign) BOOL isInUpdateBlock;
 @property (nonatomic, strong, nullable) IGListSectionMap *previoussectionMap;
 
-@property (nonatomic, strong) NSMutableSet<Class> *registeredCellIdentifier;
+@property (nonatomic, strong) NSMutableSet<NSString *> *registeredCellIdentifier;
 @property (nonatomic, strong) NSMutableSet<NSString *> *registeredSupplementaryViewIdentifiers;
 
 - (NSArray *)indexPathsFromSectionController:(IGListSectionController <IGListSectionType> *)sectionController

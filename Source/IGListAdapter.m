@@ -9,10 +9,10 @@
 
 #import "IGListAdapterInternal.h"
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListAdapterUpdater.h>
-#import <IGListKit/IGListDisplayDelegate.h>
-#import <IGListKit/IGListSupplementaryViewSource.h>
+#import <IGListKit_n2one/IGListAssert.h>
+#import <IGListKit_n2one/IGListAdapterUpdater.h>
+#import <IGListKit_n2one/IGListDisplayDelegate.h>
+#import <IGListKit_n2one/IGListSupplementaryViewSource.h>
 
 #import "IGListSectionControllerInternal.h"
 #import "NSIndexSet+PrettyDescription.h"
@@ -744,8 +744,8 @@
 
 - (__kindof UICollectionReusableView *)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind
                                                          forSectionController:(IGListSectionController <IGListSectionType> *)sectionController
-                                                                   identifier:(NSString *)identifier
                                                                         class:(Class)viewClass
+                                                                   identifier:(NSString *)identifier
                                                                       atIndex:(NSInteger)index {
     IGAssertMainThread();
     UICollectionView *collectionView = self.collectionView;

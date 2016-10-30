@@ -9,8 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListMoveIndex.h>
+#import <IGListKit_n2one/IGListMacros.h>
+#import <IGListKit_n2one/IGListMoveIndex.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

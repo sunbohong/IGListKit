@@ -85,13 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ChameleonFramework/ChameleonFramework.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/IGListKit/IGListKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/IGListKit+n2one/IGListKit_n2one.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MCUIViewLayout/MCUIViewLayout.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SunCollectionViewCell/SunCollectionViewCell.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ChameleonFramework/ChameleonFramework.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/IGListKit/IGListKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/IGListKit+n2one/IGListKit_n2one.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MCUIViewLayout/MCUIViewLayout.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SunCollectionViewCell/SunCollectionViewCell.framework"
 fi

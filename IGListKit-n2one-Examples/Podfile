@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'IGListKit-n2one-Examples' do
-  pod 'IGListKit', :path => '../IGListKit.podspec'
+  pod 'IGListKit+n2one', :path => '../IGListKit+n2one.podspec'
 
   pod 'SunCollectionViewCell', '~> 0.1.0'
   

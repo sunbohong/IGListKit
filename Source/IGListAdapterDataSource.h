@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListDiffable.h>
+#import <IGListKit_n2one/IGListDiffable.h>
 
 @class IGListAdapter;
 @class IGListSectionController;

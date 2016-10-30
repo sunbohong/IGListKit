@@ -9,13 +9,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListAdapterDataSource.h>
-#import <IGListKit/IGListAdapterDelegate.h>
-#import <IGListKit/IGListCollectionContext.h>
-#import <IGListKit/IGListCollectionView.h>
-#import <IGListKit/IGListExperiments.h>
-#import <IGListKit/IGListSectionType.h>
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListAdapterDataSource.h>
+#import <IGListKit_n2one/IGListAdapterDelegate.h>
+#import <IGListKit_n2one/IGListCollectionContext.h>
+#import <IGListKit_n2one/IGListCollectionView.h>
+#import <IGListKit_n2one/IGListExperiments.h>
+#import <IGListKit_n2one/IGListSectionType.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 @protocol IGListUpdatingDelegate;
 

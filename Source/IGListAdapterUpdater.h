@@ -9,10 +9,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListAdapterUpdaterDelegate.h>
-#import <IGListKit/IGListExperiments.h>
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListUpdatingDelegate.h>
+#import <IGListKit_n2one/IGListAdapterUpdaterDelegate.h>
+#import <IGListKit_n2one/IGListExperiments.h>
+#import <IGListKit_n2one/IGListMacros.h>
+#import <IGListKit_n2one/IGListUpdatingDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
+#import <IGListKit_n2one/IGListMacros.h>
 
 @class IGListAdapter;
 @class IGListSectionController;

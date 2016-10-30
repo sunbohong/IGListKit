@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListMoveIndex.h>
+#import <IGListKit_n2one/IGListMoveIndex.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

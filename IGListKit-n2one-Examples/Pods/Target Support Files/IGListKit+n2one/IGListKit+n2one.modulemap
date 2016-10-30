@@ -1,0 +1,6 @@
+framework module IGListKit_n2one {
+  umbrella header "IGListKit+n2one-umbrella.h"
+
+  export *
+  module * { export * }
+}
